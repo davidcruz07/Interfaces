@@ -39,12 +39,6 @@ public class Interfaces implements operaciones {
         return x / y;
     }
 
-
-
-
-
-
-
 }
 
 interface operaciones {
