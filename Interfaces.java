@@ -18,23 +18,23 @@ public class Interfaces implements operaciones {
 
     }
 
-    public float suma (float x, float y){
+    public int suma (int x, int y){
 
         return x + y;
     }
 
-    public float resta (float x, float y){
+    public int resta (int x, int y){
 
         return x - y;
     }
 
     
-    public float multiplicacion (float x, float y){
+    public int multiplicacion (int x, int y){
 
         return x * y;
     }
     
-    public float division (float x, float y){
+    public int division (int x, int y){
 
         return x / y;
     }
@@ -43,13 +43,13 @@ public class Interfaces implements operaciones {
 
 interface operaciones {
 
-    public float suma ( float x, float y);
+    public int suma ( int x, int y);
 
-    public float resta (float x, float y);
+    public int resta (int x, int y);
 
-    public float multiplicacion (float x, float y);
+    public int multiplicacion (int x, int y);
 
-    public float division (float x, float y);
+    public int division (int x, int y);
 
 
 }
